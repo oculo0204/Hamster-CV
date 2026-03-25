@@ -41,7 +41,9 @@ cd Hamster-CV
 **2. Create a virtual environment (recommended):**
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+venv\Scripts\activate    # Windows
+# source venv/bin/activate  # Mac/Linux
+
 ```
 
 **3. Install dependencies:**
@@ -50,6 +52,7 @@ Install the required Python libraries using the `requirements.txt` file.
 
 ```bash
 pip install -r requirements.txt
+pip install opencv-python mediapipe==0.10.13
 ```
 
 ## Usage
